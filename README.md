@@ -25,12 +25,12 @@ End the program
 ## Program:
 
 ```
+#Program to find the rank of a matrix.
+#Developed by: ARJUN N S
+#RegisterNumber: 212223230020
 import numpy as np
-
-A = np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
-
-rank = np.linalg.matrix_rank(A)
-
+matrix=np.array([[3,2,5],[1,1,2],[3,3,6]])
+rank=np.linalg.matrix_rank(matrix)
 print(rank)
 ```
 
